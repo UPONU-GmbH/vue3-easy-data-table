@@ -1,15 +1,19 @@
 {
-  "name": "@uponu-gmbh/vue3-easy-data-table",
+  "name": "@paar-it-gmbh/vue3-easy-data-table",
   "author": "HC200ok",
   "description": "A customizable and easy-to-use data table component made with Vue.js 3.x.",
   "private": false,
-  "version": "1.4.12",
+  "version": "1.4.13",
   "types": "./types/main.d.ts",
   "license": "MIT",
   "files": [
     "dist",
     "types"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "vue3",
     "data-table-component",
